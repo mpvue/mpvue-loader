@@ -100,7 +100,7 @@ function mockRender (options, data) {
   }
   function e (text = '') {
     return {
-      text:  text,
+      text: text,
       isComment: true
     }
   }

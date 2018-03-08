@@ -1,14 +1,14 @@
 {
-  "name": "vue-loader",
-  "version": "13.0.4",
-  "description": "Vue single-file component loader for Webpack",
+  "name": "mpvue-loader",
+  "version": "1.0.0",
+  "description": "mpvue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejs/vue-loader.git"
+    "url": "https://github.com/mpvue/mpvue-loader.git"
   },
   "keywords": [
-    "vue",
+    "mpvue",
     "webpack",
     "loader"
   ],
@@ -16,12 +16,20 @@
     "index.js",
     "lib"
   ],
-  "author": "Evan You",
+  "author": "anchengjian",
+  "contributors": [
+    {
+      "name" : "hucq"
+    },
+    {
+      "name" : "aOrz"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vue-loader/issues"
+    "url": "https://github.com/Meituan-Dianping/mpvue/issues"
   },
-  "homepage": "https://github.com/vuejs/vue-loader",
+  "homepage": "https://github.com/mpvue/mpvue-loader",
   "scripts": {
     "lint": "eslint lib test",
     "lint:fix": "eslint lib test --fix",
@@ -41,6 +49,7 @@
     ]
   },
   "dependencies": {
+    "babelon": "^1.0.5",
     "consolidate": "^0.14.0",
     "hash-sum": "^1.0.2",
     "js-beautify": "^1.6.14",
@@ -52,12 +61,13 @@
     "resolve": "^1.3.3",
     "source-map": "^0.5.6",
     "vue-hot-reload-api": "^2.1.0",
+    "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.0",
     "vue-template-es2015-compiler": "^1.5.3"
   },
   "peerDependencies": {
     "css-loader": "*",
-    "vue-template-compiler": "^2.0.0"
+    "mpvue-template-compiler": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -80,6 +90,7 @@
     "marked": "^0.3.6",
     "memory-fs": "^0.4.1",
     "mkdirp": "^0.5.1",
+    "mpvue-template-compiler": "^1.0.0",
     "mocha": "^3.4.2",
     "node-libs-browser": "^2.0.0",
     "normalize-newline": "^3.0.0",
@@ -93,7 +104,6 @@
     "url-loader": "^0.5.9",
     "vue": "^2.4.1",
     "vue-server-renderer": "^2.4.1",
-    "vue-template-compiler": "^2.4.1",
     "webpack": "^3.3.0"
   }
 }
