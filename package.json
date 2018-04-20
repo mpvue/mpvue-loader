@@ -1,6 +1,6 @@
 {
   "name": "mpvue-loader",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "mpvue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
@@ -67,7 +67,7 @@
   },
   "peerDependencies": {
     "css-loader": "*",
-    "mpvue-template-compiler": "^1.0.7"
+    "mpvue-template-compiler": "^1.0.9"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -90,7 +90,7 @@
     "marked": "^0.3.6",
     "memory-fs": "^0.4.1",
     "mkdirp": "^0.5.1",
-    "mpvue-template-compiler": "^1.0.7",
+    "mpvue-template-compiler": "^1.0.9",
     "mocha": "^3.4.2",
     "node-libs-browser": "^2.0.0",
     "normalize-newline": "^3.0.0",
