@@ -1,22 +1,23 @@
 {
-  "name": "mpvue-loader",
+  "name": "webpack4-mpvue-loader",
   "version": "2.0.0",
   "description": "mpvue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpvue/mpvue-loader.git"
+    "url": "https://github.com/bugkun/mpvue-loader.git"
   },
   "keywords": [
     "mpvue",
-    "webpack",
-    "loader"
+    "webpack4",
+    "loader",
+    "webpack4-mpvue-loader"
   ],
   "files": [
     "index.js",
     "lib"
   ],
-  "author": "anchengjian",
+  "author": "bugkun",
   "contributors": [
     {
       "name": "hucq"
@@ -27,9 +28,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Meituan-Dianping/mpvue/issues"
+    "url": "https://github.com/bugkun/mpvue-loader/issues"
   },
-  "homepage": "https://github.com/mpvue/mpvue-loader",
+  "homepage": "https://github.com/bugkun/mpvue-loader",
   "scripts": {
     "lint": "eslint lib test",
     "lint:fix": "eslint lib test --fix",
