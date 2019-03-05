@@ -9,3 +9,13 @@
 bug 或者交流建议等请反馈到 [mpvue/issues](https://github.com/Meituan-Dianping/mpvue/issues)。
 
 关于webpack4的可以在这里反馈 [mpvue/issues](https://github.com/bugkun/mpvue/issues)。
+
+## 安装
+webpack4 + babel@6(babel)
+```bash
+npm install webpack4-mpvue-loader --save-dev
+```
+webpack4 + babel@7(@babel)
+```bash
+npm install webpack4-mpvue-loader@next --save-dev
+```
