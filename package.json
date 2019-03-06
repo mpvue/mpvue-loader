@@ -1,6 +1,6 @@
 {
   "name": "webpack4-mpvue-loader",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "mpvue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
