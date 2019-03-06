@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bugkun/mpvue-loader.git"
+    "url": "https://github.com/BugKun/mpvue-loader/tree/feature/webpack4_babel%407-support"
   },
   "keywords": [
     "mpvue",
